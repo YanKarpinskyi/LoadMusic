@@ -93,7 +93,7 @@ nav {
 
 nav.toggle {
     opacity: 1;
-    transform: translateX(2vw);
+    transform: translateX(120px);
     pointer-events: auto;
 }
 
