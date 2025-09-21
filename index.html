@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site-05-saffron</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- ключ saffron
+    primary: #F4A261
+    max-width: 1024px
+    grid-template-columns: 1fr 1fr 1fr 1fr (4 колонки)
+    анімація: translateX(120px) (ease-in-out)
+    video: saffron-video.mp4, saffron-video.webm
+    audio: saffron-sound.mp3 -->
+    <header>
+        <div class="header__brending">
+            <img src="./img/logo.jpg" alt="LoudMusic-logo" id="logo">
+            <h1><strong>LoudMusic</strong> - студія звукозапису</h1>
+        </div>
+        <div class="burger">
+            <div class="burger__toggle" id="burgerToggle">
+                <span class="burger__span"></span>
+                <span class="burger__span"></span>
+                <span class="burger__span"></span>
+            </div>
+        </div>
+        <nav id="nav">
+            <a href="">Home</a>
+            <a href="">Artists</a>
+            <a href="">Music</a>
+            <a href="">Studios</a>
+            <a href="">About</a>
+            <a href="">News</a>
+            <a href="">Events</a>
+            <a href="">Contacts</a>
+            <a href="">Merch</a>
+        </nav>
+    </header>
+    <main>
+        <aside id="left-aside"></aside>
+        <section>
+            <p>
+                У студії LoudMusic ми допомагаємо Вашим ідеям перетворитися на справжні хіти
+            </p>
+            <h2>
+                Наші послуги включають:
+            </h2>
+            <div class="services">
+                <p>
+                    <img src="./img/rec.png" alt="rec">
+                    <strong>Запис вокалу та інструментів</strong> – від акустичних гітар до електронних синтезаторів.
+                </p>
+                <p>
+                    <img src="./img/mixing.png" alt="mixing">
+                    <strong>Мікшування треків</strong> – ми робимо звук насиченим, чистим і гармонійним.
+                </p>
+                <p>
+                    <img src="./img/adjustment.png" alt="adjustment">
+                    <strong>Мастеринг</strong> – готові треки звучать ідеально на всіх платформах, від Spotify до живих концертів.
+                </p>
+                <p>
+                    <img src="./img/rent.png" alt="rent">
+                    <strong>Аренда студії та обладнання</strong> – у нас сучасні кабіни та професійна апаратура для запису будь-яких жанрів.
+                </p>
+                <p>
+                    <img src="./img/audio-prod.png" alt="audio-prod">
+                    <strong>Аудіо-продакшн для відео</strong> – від рекламних роликів до кінофільмів та YouTube-контенту.
+                </p>
+                <p>До кожного проєкту ми підходимо творчо і персонально, щоб Ваш звук звучав унікально.</p>
+            </div>
+        </section>
+        <article>
+            <div class="audio-block">
+                <p>Найпопулярніший трек, записаний у нас:</p>
+                <audio controls>
+                    <source src="saffron-sound.mp3" type="audio/mpeg">
+                    Ваш браузер не підтримує відтворення цього аудіо.
+                </audio>
+            </div>
+            <div class="video-block">
+                <p>Просимо до Вашої уваги відеозапис роботи нашої студії:</p>
+                <video controls>
+                    <source src="saffron-video.mp4" type="video/mp4">
+                    <source src="saffron-video.webm" type="video/webm">
+                    Ваш браузер не підтримує відтворення цього відео.
+                </video>                
+            </div>
+        </article>
+        <aside id="right-aside"></aside>
+    </main>
+    <footer>
+
+    </footer>
+
+    <script src="./main.js"></script>
+</body>
+</html>
