@@ -279,18 +279,6 @@ article video {
     .services p{
         margin: 0.5vw;
     }
-
-    .burger__toggle.active > .burger__span:nth-child(1) {
-        transform: rotate(45deg) translateY(30px);
-    }
-
-    .burger__toggle.active > .burger__span:nth-child(2) {
-        opacity: 0;
-    }
-
-    .burger__toggle.active > .burger__span:nth-child(3) {
-        transform: rotate(-45deg) translateY(-30px);
-    }
 }
 
 @media (min-width: 1024px) {
@@ -371,17 +359,5 @@ article video {
 
     .services p{
         margin: 0.5vw;
-    }
-
-    .burger__toggle.active > .burger__span:nth-child(1) {
-        transform: rotate(45deg) translateY(30px);
-    }
-
-    .burger__toggle.active > .burger__span:nth-child(2) {
-        opacity: 0;
-    }
-
-    .burger__toggle.active > .burger__span:nth-child(3) {
-        transform: rotate(-45deg) translateY(-30px);
     }
 }
