@@ -15,7 +15,6 @@ main {
     display: grid;
     grid-template-rows: repeat(4, 1fr);
     grid-template-columns: auto;
-    width: 100vw;
     margin: 0 auto;
     gap: 2vw;
 }
@@ -118,11 +117,11 @@ aside {
     background-repeat: no-repeat;
 }
 
-#right-aside {
+#rightAside {
     background-image: url(./img/man-and-system.jpg);
 }
 
-#left-aside {
+#leftAside {
     background-image: url(./img/micro.jpg);
 }
 
@@ -189,6 +188,15 @@ article video {
     height: auto;
 }
 
+footer {
+    text-align: center;
+    font-size: 2vw;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 2vw;
+    margin-top: 2vw;
+}
+
 @media (min-width: 480px) {
     .burger__toggle.active > .burger__span:nth-child(1) {
         transform: rotate(45deg) translateY(20px);
@@ -235,7 +243,7 @@ article video {
         grid-template-rows: auto;
     }
 
-    #left-aside {
+    #leftAside {
         grid-column: 1 / 2;
     }
 
@@ -258,7 +266,7 @@ article video {
         height: 130px;
     }
 
-    #right-aside {
+    #rightAside {
         grid-column: 4 / 5;
     }
 
@@ -312,7 +320,7 @@ article video {
         grid-template-rows: auto;
     }
 
-    #left-aside {
+    #leftAside {
         grid-column: 1 / 2;
     }
 
@@ -335,7 +343,7 @@ article video {
         height: 130px;
     }
 
-    #right-aside {
+    #rightAside {
         grid-column: 4 / 5;
     }
 

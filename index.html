@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,15 +11,15 @@
 </head>
 <body>
     <header>
-        <div class="header__brending">
-            <img src="./img/logo.jpg" alt="LoudMusic-logo" id="logo">
+        <div class="header__brending" role="banner">
+            <img id="logo" src="./img/logo.jpg" alt="LoudMusic-logo">
             <h1><strong>LoudMusic</strong> - студія звукозапису</h1>
         </div>
-        <div class="burger">
-            <div class="burger__toggle" id="burgerToggle">
-                <span class="burger__span"></span>
-                <span class="burger__span"></span>
-                <span class="burger__span"></span>
+        <div class="burger" role="navigation">
+            <div id="burgerToggle" class="burger__toggle" role="menu" tabindex="0" aria-label="меню" aria-expanded="false" aria-controls="nav">
+                <span class="burger__span" role="menuitem" aria-hidden="true"></span>
+                <span class="burger__span" role="menuitem" aria-hidden="true"></span>
+                <span class="burger__span" role="menuitem" aria-hidden="true"></span>
             </div>
         </div>
         <nav id="nav">
@@ -35,7 +35,7 @@
         </nav>
     </header>
     <main>
-        <aside id="left-aside"></aside>
+        <aside id="leftAside"></aside>
         <section>
             <p>
                 У студії LoudMusic ми допомагаємо Вашим ідеям перетворитися на справжні хіти
@@ -84,10 +84,10 @@
                 </video>                
             </div>
         </article>
-        <aside id="right-aside"></aside>
+        <aside id="rightAside"></aside>
     </main>
     <footer>
-
+        <p>&copy; 2025 LoudMusic. Всі права захищено.</p>
     </footer>
 
     <script src="./main.js"></script>
